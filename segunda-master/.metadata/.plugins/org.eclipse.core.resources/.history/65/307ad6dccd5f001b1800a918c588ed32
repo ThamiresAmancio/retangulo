@@ -1,0 +1,25 @@
+package br.edu.empresa;
+
+import br.edu.empresa.model.Retangulo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Retangulo r1 = new Retangulo();
+		Retangulo r2 = new Retangulo();
+		Retangulo r3 = r1;
+		
+		
+		r1.setAltura(3);
+		r1.setBase(5);
+		
+		r2.setAltura(15);
+		r2.setBase(45);
+		
+		
+		System.out.println(r1.calcularArea());
+		System.out.println(r2.calcularArea());
+	}
+
+}

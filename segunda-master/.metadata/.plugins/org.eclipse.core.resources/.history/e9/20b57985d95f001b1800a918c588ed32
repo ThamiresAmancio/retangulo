@@ -1,0 +1,32 @@
+package br.edu.empresa.gui;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class FrameRetangulo {
+
+		public void criarTela (){
+			
+			
+			JFrame telaRetangulo = new JFrame();
+			telaRetangulo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			telaRetangulo.setSize(500, 300);
+			telaRetangulo.setTitle(" Cálculos com retângulo");
+			telaRetangulo.setLayout(null);
+			
+			//*** Criar um Label 
+			
+			JLabel labelAltura = new JLabel ();
+			labelAltura.setText("Altura:"); 
+			
+			// Definir a posição e tamanho do label (x,y,width,height)
+			labelAltura.setBounds(10, 10, 80, 30);
+			
+			
+			
+			telaRetangulo.setVisible(true);
+			
+		}
+		
+	
+}

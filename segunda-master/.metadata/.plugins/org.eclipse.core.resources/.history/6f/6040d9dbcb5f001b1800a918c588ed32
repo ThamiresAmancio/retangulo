@@ -1,0 +1,13 @@
+package br.edu.empresa;
+
+import br.edu.empresa.model.Retangulo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Retangulo r1 = new Retangulo();
+
+	}
+
+}
